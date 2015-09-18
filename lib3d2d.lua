@@ -6,9 +6,7 @@
 	
 	PANEL:Set3D2D(bool)
 	PANEL:Set3D2DScale(float)
-	PANEL:	
 	PANEL:Set3D2DAng(angle)
-	PANEL:Set3D2DParent(entity)
 ]]--
 
 local _R = debug.getregistry()
@@ -624,7 +622,6 @@ function lib3d2d.disable()
 	_R.Panel.Set3D2DPos = nil
 	_R.Panel.Set3D2DAng = nil
 	_R.Panel.Set3D2DScale = nil
-	_R.Panel.Set3D2DParent = nil
 	
 	--removing hooks
 	hook.Remove("CalcView", "3D2DVGUI")
