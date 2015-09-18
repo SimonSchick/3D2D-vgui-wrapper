@@ -6,6 +6,7 @@
 	
 	PANEL:Set3D2D(bool)
 	PANEL:Set3D2DScale(float)
+	PANEL:Set3D2DPos(vector)
 	PANEL:Set3D2DAng(angle)
 ]]--
 
